@@ -1,0 +1,56 @@
+@keyframes anvil {
+    0% {
+      transform: scale(1) translateY(0px);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+    1% {
+      transform: scale(0.96) translateY(10px);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+    100% {
+      transform: scale(1) translateY(0px);
+      opacity: 1;
+      box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+    }
+  }
+
+
+.pup{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: 700px;
+    background-color: #FAFAF8;
+    border: 6px;
+    border-style: solid;
+    border-color: #088156;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+-webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+
+
+
+.btt{
+    position:relative;
+    bottom: 30px;
+    left: 480px;
+
+}
+.graphic-buttons {
+    color: #000;
+    height: 4px;
+    padding: 0px 0px 0px 0px;
+    background: rgba(255, 255, 255, 0);
+    }
+    
+#graphic-button-1{
+    position: absolute;
+    right: 0;
+    }
